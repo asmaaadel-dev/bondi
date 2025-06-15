@@ -1,16 +1,25 @@
 :root{
     --dark: #19283f;
+    --green-color: #33d1cc;
 }
 body{
  font-family: "Roboto", sans-serif;
- background-color: var(--dark);
- color: white;
- height: 10000px;
+height: 10000px;
 }
 /*start Navbar*/
 .navbar {
-    background-color: #1a1a1a;
-  /*End Navbar*/
+    background-color: var(--dark-color);
 }
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.focus,
+.navbar .navbar-nav .nav-link.hover {
+    color: var(--green-color)
+}
+  /*End Navbar*/
+
  
 
