@@ -29,8 +29,15 @@ body {
   border-left: 1px solid var(--green-color);
 }
 
-.navbar .search {
+.navbar .search svg {
   color: var(--green-color);
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color:var(--green-color);
+
 }
 
 /*End Navbar*/
