@@ -68,6 +68,7 @@ body {
   min-height: calc(100vh - 72px);
 }
 /*end Landing*/
+
 /*start Features*/
 .features .icon-holder{
   height: 200px;
@@ -81,10 +82,10 @@ left:50%;
   color: var(--section-color);
 }
 .features .icon-holder .icon {
-color: var(--green-color);
-
+  color: var(--green-color);
 }
 .features .feat h4 {
  color: var(--yellow-color);
 }
+/*end Features*/
 
