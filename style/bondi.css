@@ -32,7 +32,6 @@ body {
 /*start Navbar*/
 .navbar {
   background-color: var(--dark);
-  border-bottom: 1px solid var(--green-color);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -56,11 +55,6 @@ body {
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
-.navbar .navbar-toggler[aria-expanded="true"] {
-  border-color:var(--green-color);
-
-}
-
 /*End Navbar*/
 /*start Landing*/
 .landing{
