@@ -138,3 +138,8 @@ background-color: var(--red-color);
   background-color: var(--green-color);
 }
 /*end team*/
+/*start project*/
+.project {
+  background-color: var(--dark);
+}
+/*end project*/
