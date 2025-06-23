@@ -122,4 +122,8 @@ background-color: var(--red-color);
 }
 
 /*end our work*/
-
+/*start stuff*/
+.stuff .description{
+  max-width: 500px;
+}
+/*end stuff*/
